@@ -316,7 +316,7 @@ const App = () => {
             </View>
   
             <View style={styles.selectedWordDisplay}>
-              <Text> 문장:</Text>
+              <Text>만든 문장:</Text>
               <Text>{userAnswer.map(item => item.word).join(' ')}</Text>
             </View>
   
